@@ -1,0 +1,21 @@
+#nav{
+    height: 100px;
+    background-color: orange;
+    padding-left: 50px;
+}
+#icon{
+    display: inline;
+}#but{
+    background-color: orange;
+    color: white;
+}
+#firstline{
+    margin-left: 100px;
+}
+#left{
+    padding-left: 900px;
+}
+a{
+    text-decoration: none;
+    margin-left: 100px;
+}

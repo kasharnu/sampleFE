@@ -1,0 +1,12 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 2px red solid;
+    padding: 30px;
+    margin: 20px;
+ 
+}
+a{  
+    padding: 20px;
+}
