@@ -1,0 +1,38 @@
+div{
+    
+    height: 100px;
+    display:inline;
+    
+}
+
+#one{
+    background-color: red;
+    position: static;
+    top: 10px;
+
+}
+#two{
+    background-color: green;
+    position: relative;
+    left: 20px;
+    
+    
+}
+#three{
+    background-color: yellow;
+    position: absolute;
+    right: 20px;
+}
+#four{
+    background-color: blue;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#five{
+    background-color: black;
+    position: sticky;
+    color: white;
+   bottom:50px;
+   z-index: -1;
+}
