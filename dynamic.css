@@ -1,0 +1,22 @@
+div{
+    width: 200px;
+    height: 150px;
+    background-color: red;
+    transition-property:all;
+    transition-duration: 2s;
+}
+/* 
+@media(min-width:300px) and (max-width:600px) {
+
+    div{
+        background-color: pink;
+        width: 150px;
+    }
+} */
+ div:hover{
+width: 100px;
+height: 100px;
+background-color: blue;
+color: white;
+
+ }

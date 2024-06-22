@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>DOM</h1>
+    <h3 id="res">res</h3>
+   <p class="dom"></p>
+   <p class="dom"></p>
+   <p class="dom"></p>
+
+</body>
+
+<script>
+
+const animals=["tiger", "houda", "kangaroos"]
+// animals.splice(3,2,"cat","dog","rabbit");
+  
+//   for(i in animals){
+//     document.getElementsByTagName("p")[i].innerHTML=animals[i]
+//   }
+  for(let i=0;i<animals.length;i++)
+  {
+    document.getElementsByTagName("p")[i].innerHTML=animals[i]
+}
+  
+document.getElementById("res").innerText="these are animals";
+    
+// if(val1==null)
+// {
+
+// }
+// else{
+    // val3=val1+val2
+// document.getElementById("res").innerText=val3
+// }
+
+  
+//   c.innerText=b.innerText
+
+   
+
+</script>
+</html>

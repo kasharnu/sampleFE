@@ -1,0 +1,31 @@
+div{
+width: 100px;
+height: 100px;
+background-color: red;
+position: absolute;
+left: 50%;
+top: 50%;
+transition: all 1s ease-in 0.2s ;
+/* transform: rotate(45deg);
+rotate: z 90deg; */
+
+
+}
+div:hover{
+    /* width: 200px;
+    height: 150px; */
+    color: white;
+    background-color: green; 
+    /* transform: rotate(45deg); 
+    transform: translate(40px,50px); */
+    /* transform: skew(90deg); */
+}
+
+/* div{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+}
+div:hover{
+    ;
+} */
